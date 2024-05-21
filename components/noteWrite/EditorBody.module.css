@@ -1,0 +1,10 @@
+.saveBtn {
+  width: 100%;
+  height: 40px;
+}
+
+.editors {
+  width: 100%;
+  height: 200px;
+  resize: none;
+}

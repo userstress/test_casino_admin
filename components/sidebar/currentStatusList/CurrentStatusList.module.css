@@ -1,0 +1,48 @@
+.boxContainer {
+  width: 100%;
+}
+
+.hideBtnContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.hideBtnContainer > button {
+  width: 49%;
+  height: 1.563vw;
+  background: linear-gradient(184deg, #3269c0 35.17%, #181d4b 87.53%);
+  border: none;
+  color: #ffa500;
+  font-size: 14.5px;
+  margin-bottom: 0.26vw;
+  cursor: pointer;
+}
+
+.slideDownContainer {
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s all;
+}
+
+.hide {
+  /* height: 1120px; */
+  transition: 0.5s all;
+}
+
+.countDateAll {
+  width: 100%;
+  height: 1.563vw;
+  background: linear-gradient(184deg, #3269c0 35.17%, #181d4b 87.53%);
+  border: none;
+  color: #ffa500;
+  font-size: 14.5px;
+  margin-bottom: 0.26vw;
+}
+
+.cashDate {
+  width: 100%;
+  background: linear-gradient(184deg, #3269c0 35.17%, #181d4b 87.53%);
+  border: none;
+  color: #ffa500;
+  font-size: 14.5px;
+  margin-bottom: 0.26vw;
+}

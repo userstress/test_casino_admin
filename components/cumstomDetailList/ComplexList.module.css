@@ -1,0 +1,13 @@
+.titleof {
+  float: right;
+  background-color: black;
+  color: white;
+}
+
+.navListBox {
+  list-style: none;
+}
+.detailBoxes2,
+.detailBoxes {
+  background-color: #808080;
+}

@@ -1,0 +1,23 @@
+.boxContainer {
+  zoom: 1;
+}
+
+@media (max-width: 1440px) {
+  .boxContainer {
+    zoom: 0.9;
+  }
+}
+
+@media (max-width: 1080px) {
+  .boxContainer {
+    zoom: 0.7;
+  }
+}
+
+.gridmaincustom > div:nth-child(2) > div:nth-child(3) {
+  display: none;
+}
+
+.boxContainer {
+  border-bottom: 3px double black;
+}

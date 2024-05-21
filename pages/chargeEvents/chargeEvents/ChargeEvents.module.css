@@ -1,0 +1,217 @@
+/* 전체 width 1663px */
+
+.boxContainer1 {
+  width: 16%;
+  /* 253px */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.boxContainer2 {
+  /* border:1px solid red; */
+  width: 32%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxContainer3 {
+  /* border:1px solid red; */
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxContainer4 {
+  /* border:1px solid red; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableContainer {
+  width: 100%;
+}
+
+.footerContainer {
+  padding: 10px;
+  width: 100%;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerFirstRowContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 46%;
+}
+
+.footerFirstRowInner {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSecondRowContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 46%;
+}
+
+.footerSecondRowButtons {
+  width: 21%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footerSecondRowInput {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridHeader {
+  width: 100%;
+  height: 120px;
+  display: grid;
+  grid-template-columns: 0.5fr repeat(6, 1fr) 2fr 2fr 1fr 1fr 1fr;
+}
+.headerNode:nth-child(13) > input {
+  border: none;
+}
+
+.headerNode:nth-child(25) > input {
+  border: none;
+}
+
+.headerNode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: solid 1px #808080;
+  border-bottom: solid 1px #808080;
+  font-weight: bold;
+  height: 100%;
+}
+.nodeInput {
+  width: 95%;
+  text-align: center;
+  height: 80%;
+  font-weight: bold;
+}
+.headerNode > p {
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerNode > p:nth-child(2) {
+  width: 100%;
+  text-align: center;
+}
+.pnameNumber:first-child {
+  border: none;
+}
+.colorRed {
+  color: red;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0.5vw 0;
+}
+
+.tableWrapper {
+  width: 400px;
+  height: 140px;
+  text-align: center;
+  border-collapse: collapse;
+  font-weight: bold;
+}
+
+.tableWarpper2 {
+  border: solid 1px #808080;
+  width: 200px;
+  height: 120px;
+  text-align: center;
+  margin-left: 200px;
+  border-collapse: collapse;
+  font-weight: bold;
+}
+
+.tableWarpper2 > thead > tr > th {
+  border: solid 1px #808080;
+}
+.tableWrapper > thead > tr > th {
+  border: solid 1px #808080;
+}
+.tableWarpper2 > tbody > tr > th {
+  border: solid 1px #808080;
+}
+.tableWrapper > tbody > tr > td {
+  border: solid 1px #808080;
+}
+.widthTableDataleft {
+  height: 24px;
+}
+.widthTableData {
+  padding: 0%;
+}
+.tableSelector {
+  width: 90%;
+  height: 80%;
+  margin-bottom: 1.5px;
+}
+
+.tableBoxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.tableWarpper2 > thead > tr {
+  height: 40px;
+}
+.tableBodys {
+  border: solid 1px #808080;
+}
+.tableBodys > tr > td {
+  border: solid 1px #808080;
+  height: 40px;
+}
+.tableright {
+  width: 40%;
+}
+.onSubmitBtn {
+  width: 91px;
+  height: 30px;
+  position: relative;
+  margin: 1vw 0;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  border: none;
+  background-color: #0000ff;
+}
+
+.saveChbtn {
+  width: 90%;
+  color: white;
+  border: none;
+  height: 90%;
+  line-height: 90%;
+  font-weight: bold;
+}
+
+.saveChbtn:hover {
+  cursor: pointer;
+}

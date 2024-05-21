@@ -1,0 +1,42 @@
+.titles {
+  background-color: black;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 850px;
+  height: 38px;
+  font-weight: 600;
+}
+.tables {
+  width: 850px;
+  height: 38px;
+  display: grid;
+  grid-template-columns: 4fr 13fr;
+  text-align: center;
+  margin-top: 0.1vw;
+  align-content: center;
+}
+.tableLeft {
+  background-color: #808080;
+  color: white;
+  font-weight: 600;
+  height: 100%;
+  line-height: 36px;
+}
+.tableRight {
+  color: black;
+  font-weight: 500;
+  background-color: white;
+  height: 100%;
+  line-height: 36px;
+}
+
+.tablewrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.56vw 0;
+  flex-direction: column;
+}

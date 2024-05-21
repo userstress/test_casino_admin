@@ -1,0 +1,98 @@
+a.customerServiceDetailTableWrapper {
+  min-width: 1680px;
+  font-size: 13px;
+}
+
+.customerServiceDetailTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customerServiceDetailTable tr {
+  text-align: center;
+  height: 24px;
+  color: white;
+  border: 1px solid white;
+}
+
+.customerServiceDetailTable tr td:nth-child(odd) {
+  background-color: #696969;
+}
+
+.customerServiceDetailTable select,
+.customerServiceDetailTable input {
+  background-color: #181d4b;
+  color: white;
+  width: 100%;
+  height: 24px;
+}
+
+.customerServiceDetailTable input {
+  border: none;
+}
+
+.customerServiceDetailTable .title {
+  background-color: #000000;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3px;
+}
+
+.bottomBtnWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 2px;
+}
+
+.templateBtnWrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 3px;
+}
+.editors {
+}
+
+.widthSection {
+  /* display: grid;
+  grid-template-columns: 1.1fr 3.23fr; */
+  width: 88vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sectionTitle {
+  background-color: #696969;
+  color: white;
+  width: 100%;
+  text-align: center;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+}
+
+.sectionContents {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sectionContents > input {
+  width: 100%;
+  padding-left: 10px;
+}
+.sections {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.03fr 1fr;
+}
+
+.saveBtnWrapper > button:hover {
+  cursor: pointer;
+}

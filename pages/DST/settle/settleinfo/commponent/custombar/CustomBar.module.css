@@ -1,0 +1,22 @@
+/* 반응형 boxWrapper만 바꾸면됨 */
+
+.boxWrapper {
+  display: flex;
+  background-color: #181d4b;
+  height: 2.1vw;
+  align-items: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 0.781vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 4px 10px;
+  margin-top: 3px;
+}
+
+@media (max-width: 1024px) {
+  .boxWrapper {
+    height: 2.5vw;
+  }
+}

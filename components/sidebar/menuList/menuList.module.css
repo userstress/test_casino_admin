@@ -1,0 +1,30 @@
+.subMenuItem {
+  transition: height 0.2s;
+  display: block;
+}
+
+.subMenuItem:not(.isDropped) {
+  display: none;
+}
+
+.menuList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menuList li {
+  width: 100%;
+  height: 1.563vw;
+  border: 1px solid #181d4b;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.menuList li:hover {
+  color: rgb(255, 165, 0);
+  cursor: pointer;
+}

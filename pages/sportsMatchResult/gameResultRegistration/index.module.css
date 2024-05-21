@@ -1,0 +1,94 @@
+.boxInner {
+  width: 100%;
+  /* 1425px */
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.boxContainer1 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.boxContainer2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.boxContainer3 {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxContainer4 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.boxContainer5 {
+  width: 15vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.gridmaincustom > div:nth-child(2) > div:nth-child(3) {
+  display: none;
+}
+/* 이하  table cell styles  */
+.columnBox3Stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.columnBox3Stack > span {
+  margin: 0;
+  padding: 0;
+  line-height: 118%;
+}
+
+.cells {
+  width: 100%;
+  height: 100%;
+  white-space: normal;
+  word-wrap: break-word; /* 오래된 브라우저 호환성을 위함 */
+  overflow-wrap: break-word;
+  font-size: 10px;
+}
+.cells > input {
+  font-size: 10px;
+  text-align: center;
+}
+
+.flexboxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ratioInput {
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+.inputRatio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75%;
+}
+.inputRatio > span {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}

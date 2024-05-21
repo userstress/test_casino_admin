@@ -1,0 +1,69 @@
+.boxInner {
+  width: 100%;
+  /* 1425px */
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.boxContainer1 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.boxContainer2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.boxContainer3 {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxContainer4 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.boxContainer5 {
+  width: 15vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.gridmaincustom > div:nth-child(2) > div:nth-child(3) {
+  display: none;
+}
+
+.button {
+  border-radius: 5px;
+  width: 42px;
+}
+
+.button.editable {
+  color: #008000;
+  background-color: transparent;
+  border: none;
+}
+
+.buttonBox {
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.buttonBox > button {
+  height: 27px;
+  border-radius: 4px;
+}

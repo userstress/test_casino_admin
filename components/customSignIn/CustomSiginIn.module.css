@@ -1,0 +1,125 @@
+.boxContainer {
+  width: 41.667vw;
+  /* 800px */
+  /* width: 800px; */
+  height: 31vw;
+  /* height: 532px; */
+  /* 532px */
+  background-color: #5386b5;
+  font-family: Inter;
+  padding: 0.26vw 0.417vw;
+  font-weight: 700;
+  font-size: 15px;
+}
+.boxInner {
+  padding: 0.208vw;
+  background-color: white;
+}
+
+.sectionContainer {
+  width: 100%;
+  /* 778px */
+  height: 25.35vw;
+  /* 427px */
+  padding: 0.521vw;
+  background-color: #5386b5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sectionInner {
+  height: 1.979vw;
+  /* 38px */
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionContent1 {
+  width: 20%;
+  background-color: #e5e5e5;
+  line-height: 1.979vw;
+  /* 38px */
+  text-align: center;
+}
+
+.sectionContent2 {
+  width: 79%;
+  /* 595px */
+  background-color: #e5e5e5;
+  padding: 0.208vw 0 0.208vw 0.208vw;
+}
+.sectionContent2Inner {
+  /* 560px */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.sectionContent2Inner2 {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.sectionContent2Inner2 > p {
+  margin-left: 10px;
+  font-size: 13px;
+}
+.circleContainer {
+  margin-left: 10px;
+}
+.circleContainer > svg {
+  color: black;
+}
+
+.phoneNumberContainer {
+  width: 50.2%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.emailContainer {
+  width: 99%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerContainer {
+  width: 100%;
+  height: 3vw;
+  /* 37px */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footerInner {
+  width: 31.3%;
+  height: 2vw;
+  /* 243px */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.boxWrapper {
+  background-color: #d9d9d9;
+  height: 100%;
+  border: none;
+  font-family: Inter;
+  font-size: 0.781vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  color: black;
+}
+
+@media (max-width: 1440px) {
+  .boxContainer {
+    font-size: 0.75vw;
+  }
+}

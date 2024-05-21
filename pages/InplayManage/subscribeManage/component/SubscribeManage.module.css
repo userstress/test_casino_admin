@@ -1,0 +1,51 @@
+.TotalMoney {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.TotalMoney > span {
+  margin-right: 20px;
+}
+
+.boxContainer1 {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.centerBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.ArrowBtn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ArrowBtn > svg {
+  width: 100%;
+  height: 80%;
+}
+
+.cancleBtnBox {
+  height: 23px;
+  padding: 0;
+  font-size: 12px;
+}
+.cancleBtnBox > button {
+  height: 23px;
+  padding: 0;
+  font-size: 12px;
+  width: 70px;
+}
+.cancleBtnBox > button:hover {
+  cursor: pointer;
+}

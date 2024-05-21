@@ -1,0 +1,62 @@
+/* .boxContainer{
+    padding:3px
+} */
+
+.tableContainer {
+  width: 100%;
+  border-bottom: 3px double black;
+}
+
+.footerContainer {
+  width: 7%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.boxContainer1 {
+  width: 33.2%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.boxContainer2 {
+  width: 9%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.totalmoney {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.totalmoney > div {
+  min-width: 15vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.totalmoney2 {
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.totalmoney2 > select {
+  margin-left: 10px;
+}
+.checkboxes {
+  width: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

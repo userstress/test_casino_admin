@@ -1,0 +1,24 @@
+.boxContainer {
+  margin-bottom: 0.26vw;
+}
+
+.boxContainer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 5px;
+  font-size: 12px;
+}
+
+.boxContainer ul:hover {
+  cursor: pointer;
+}
+
+.boxContainer ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+}
+
+.boxContainer ul li div:nth-child(2) {
+  font-size: 10px;
+}

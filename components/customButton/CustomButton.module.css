@@ -1,0 +1,9 @@
+.boxWrapper {
+  height: 100%;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+

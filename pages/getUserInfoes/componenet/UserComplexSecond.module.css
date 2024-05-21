@@ -1,0 +1,105 @@
+.GridWrappers {
+  display: grid;
+  width: 100%;
+}
+
+.gridSectors {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: solid 1px black;
+}
+.gridRightSideSector,
+.gridLeftSideSector {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.gridSectorWIDTH {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border-top: solid 1px black;
+  height: 250px;
+}
+.gridSectorWIDTH2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border-top: solid 1px black;
+}
+.gridLeftSideSector {
+  border-left: solid 1px black;
+}
+
+.Memoside {
+  text-align: center;
+  background-color: #3a6287;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.Memoside2 {
+  text-align: center;
+  background-color: #3a6287;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.TextSide {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: solid 1px black;
+}
+.selectTotalBox {
+  width: 100%;
+  padding: 1px;
+  margin: 0;
+}
+
+.selectTotalBox {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+.selectSet {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-top: solid 1px black;
+  padding: 2px;
+  resize: none;
+}
+.selectSet > select {
+  margin: 0px 1px;
+  width: 100px;
+  height: 16px;
+  font-size: 10px;
+}
+.selectSet2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: solid 1px black;
+  height: 26px;
+  padding: 2px;
+  font-size: 10px;
+}
+
+.selectTotalBox2 {
+  width: 100%;
+  height: auto;
+  padding: 1px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}

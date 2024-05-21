@@ -1,0 +1,83 @@
+.topbar {
+  width: 100%;
+  height: fit-content;
+  /* height: 4.167vw; */
+  background-color: white;
+  color: black;
+  position: sticky;
+  top: 0;
+}
+
+.topbar .topbarWrapper {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.topbar .topbarWrapper .topInfoWrapper {
+  height: fit-content;
+  border-top: 1px solid #181d4b;
+  border-bottom: 1px solid #181d4b;
+}
+
+.topbar .topbarWrapper .topInfoWrapper .topbarTitle {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.topbar .topbarWrapper .topInfoWrapper .topbarTitle .topbarLogoTitle,
+.topbar .topbarWrapper .topInfoWrapper .topbarTitle .topbarSubTitle {
+  width: 50%;
+
+  border: 1px solid #181d4b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.042vw;
+  font-weight: 700;
+}
+
+.topbar .topbarWrapper .topInfoWrapper .topbarAdminInfo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #5386b5;
+}
+
+.topbar .topbarWrapper .topInfoWrapper .topbarAdminInfo div {
+  border: 1px solid #181d4b;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  white-space: nowrap;
+  font-size: 0.781vw;
+
+  /* padding: 0 8px; */
+  /* padding: 0 0.417vw; */
+}
+
+@media (max-width: 1440px) {
+  .topbar .topbarWrapper .topInfoWrapper .topbarAdminInfo div {
+    padding: 0px 4px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .topbar .topbarWrapper .topInfoWrapper .topbarAdminInfo div {
+    padding: 0px 1px;
+  }
+
+  /* .topbar{
+    height: 58px;
+  }
+  .topbar .topbarWrapper .topInfoWrapper {
+    height: 30px;
+  }
+  .topbar .topbarWrapper .topInfoWrapper .topbarAdminInfo div {
+    height: 26px;
+  } */
+}

@@ -1,0 +1,67 @@
+.customBarInner {
+  width: 40%;
+  /* 657px */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+.inputInner {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boxContainer1 {
+  width: 6vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxContainer2 {
+  width: 11vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxContainer3 {
+  width: 14.583vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxContainer4 {
+  width: 8.4vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boxContainer5 {
+  width: 5vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxContainer5 input {
+  margin: 0;
+}
+.boxContainer7 {
+  width: 10.5vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tableContainer {
+  width: 100%;
+  border-bottom: 3px double black;
+}

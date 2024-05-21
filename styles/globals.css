@@ -1,0 +1,380 @@
+html,
+body {
+  padding: 0 !important;
+  margin: 0;
+  font-family: SCDream;
+  overflow: auto;
+  color: black;
+}
+
+#__next {
+  width: 100%;
+  overflow: hidden;
+}
+:root {
+  --toastify-toast-width: 600px !important;
+}
+input {
+  font-family: SCDream;
+}
+
+button {
+  font-family: SCDream;
+}
+select {
+  font-family: SCDream;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+* {
+  box-sizing: border-box;
+}
+.table-cells-muis-btns-common:hover {
+  cursor: pointer;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 0;
+}
+.toast-container {
+  z-index: 10010;
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+/* react-datepicker */
+
+.react-datepicker-wrapper {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  width: 70%;
+  /* border:1px solid red !important; */
+}
+.MuiTablePagination-root {
+  position: absolute;
+  z-index: 10;
+}
+.MuiDataGrid-selectedRowCount {
+  display: none !important;
+}
+.react-datepicker-wrapper div {
+  height: 100%;
+  width: 100%;
+}
+
+.react-datepicker-wrapper div input {
+  width: 100%;
+}
+
+.MuiDataGrid-virtualScrollerContent {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+}
+
+/* .MuiDataGrid-footerContainer {
+  z-index: 0;
+} */
+
+.MuiDataGrid-overlayWrapperInner,
+.MuiDataGrid-virtualScroller,
+.MuiDataGrid-overlay {
+  min-height: 40px;
+}
+.react-datepicker-popper {
+  z-index: 10 !important;
+}
+.MuiDataGrid-footerContainer {
+  background-color: white;
+}
+/* .MuiDataGrid-main {
+  overflow: visible !important;
+}
+.MuiDataGrid-main > div:nth-child(3) {
+  display: none !important;
+}
+.MuiDataGrid-virtualScroller {
+  overflow: visible !important;
+  overflow-y: visible !important;
+} */
+.MuiSvgIcon-root {
+  color: black;
+}
+
+.Mui-selected {
+  /* color: yellow; */
+  font-weight: 600;
+}
+
+.sidebarSmallMenu {
+  background-color: #f5f5dc;
+}
+.sidebarSmallMenu > a {
+  width: 100%;
+  text-align: center;
+}
+/* .MuiDataGrid-columnHeaderTitleContainer {
+  width: 80px !important;
+} */
+
+/* .MuiDataGrid-columnHeaderDraggableContainer{
+  display: block !important;
+  height: 100%;
+} */
+/* .MuiDataGrid-columnHeaders{
+  min-height:22px !important;
+  max-height:22px !important;
+} */
+
+.ql-snow {
+  background-color: none;
+}
+
+.MuiDataGrid-cell {
+  justify-content: center;
+}
+.MuiDataGrid-panelWrapper {
+  width: 600px; /* 원하는 너비로 조정 */
+  height: 400px; /* 원하는 높이로 조정 */
+}
+.quill {
+  min-height: 10vw;
+}
+.ql-container {
+  min-height: 10vw;
+  width: 95%;
+  background-color: black !important;
+  position: static !important;
+  color: white;
+}
+.ql-editor {
+  min-height: 10vw !important;
+}
+
+.ql-editor::placeholder {
+  font-weight: bold;
+}
+
+@media (min-width: 1530px) {
+  .ql-size-huge {
+    font-size: 2.5rem;
+  }
+  .ql-size-large {
+    font-size: 1.5rem;
+  }
+  .ql-size-small {
+    font-size: 0.75rem;
+  }
+
+  .ql-indent-0 {
+    padding-left: 1.5rem;
+  }
+  .ql-indent-1 {
+    padding-left: 4.5rem;
+  }
+  .ql-indent-2 {
+    padding-left: 7.5rem;
+  }
+  .ql-indent-3 {
+    padding-left: 10.5rem;
+  }
+  .ql-indent-4 {
+    padding-left: 13.5rem;
+  }
+  .ql-indent-5 {
+    padding-left: 16.5rem;
+  }
+  .ql-indent-6 {
+    padding-left: 19.5rem;
+  }
+  .ql-indent-7 {
+    padding-left: 22.5rem;
+  }
+  .ql-indent-8 {
+    padding-left: 25.5rem;
+  }
+}
+
+@media (max-width: 1529px) and (min-width: 1024px) {
+  .ql-size-huge {
+    font-size: 1.2rem;
+  }
+  .ql-size-large {
+    font-size: 0.9rem;
+  }
+  .ql-size-small {
+    font-size: 0.6rem;
+  }
+  .ql-indent-0 {
+    padding-left: 0rem;
+  }
+  .ql-indent-1 {
+    padding-left: 1rem;
+    max-width: 100%;
+  }
+  .ql-indent-2 {
+    padding-left: 2rem;
+    max-width: 100%;
+  }
+  .ql-indent-3 {
+    padding-left: 3rem;
+    max-width: 100%;
+  }
+  .ql-indent-4 {
+    padding-left: 4rem;
+    max-width: 100%;
+  }
+  .ql-indent-5 {
+    padding-left: 5rem;
+    max-width: 100%;
+  }
+  .ql-indent-6 {
+    padding-left: 6rem;
+    max-width: 100%;
+  }
+  .ql-indent-7 {
+    padding-left: 7rem;
+    max-width: 100%;
+  }
+  .ql-indent-8 {
+    padding-left: 13rem;
+    max-width: 100%;
+  }
+  .ql-editor > p {
+    font-size: 1vw;
+  }
+}
+@media (max-width: 1023px) and (min-width: 320px) {
+  .ql-size-huge {
+    font-size: 1.2rem;
+  }
+  .ql-size-large {
+    font-size: 0.9rem;
+  }
+  .ql-size-small {
+    font-size: 0.6rem;
+  }
+  .ql-indent-0 {
+    padding-left: 0rem;
+  }
+  .ql-indent-1 {
+    padding-left: 0.2rem;
+  }
+  .ql-indent-2 {
+    padding-left: 0.4rem;
+  }
+  .ql-indent-3 {
+    padding-left: 0.6rem;
+  }
+  .ql-indent-4 {
+    padding-left: 0.8rem;
+  }
+  .ql-indent-5 {
+    padding-left: 1rem;
+  }
+  .ql-indent-6 {
+    padding-left: 1.2rem;
+  }
+  .ql-indent-7 {
+    padding-left: 1.4rem;
+  }
+  .ql-indent-8 {
+    padding-left: 1.6rem;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.ql-align-right {
+  text-align: right;
+}
+.ql-align-center {
+  text-align: center;
+}
+.ql-font-nexon {
+  font-family: "nexon";
+}
+.ql-font-hakgyo {
+  font-family: "hakgyo";
+}
+.ql-font-jamsil {
+  font-family: "jamsil";
+}
+.ql-font-scdream {
+  font-family: "scdream";
+}
+.ql-font-KBOGothic {
+  font-family: "KBOGothic";
+}
+.ql-font-Gmarket {
+  font-family: "Gmarket";
+}
+.ql-font-ESAMANRU {
+  font-family: "ESAMANRU";
+}
+
+.ql-editor .ql-font-pretendard {
+  font-family: "pretendard";
+}
+.ql-picker.ql-font .ql-picker-label[data-value="nexon"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="nexon"]::before {
+  font-family: "nexon", cursive;
+  content: "nexon" !important;
+}
+.ql-picker.ql-font .ql-picker-label[data-value="hakgyo"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="hakgyo"]::before {
+  font-family: "hakgyo";
+  content: "hakgyo" !important;
+}
+.ql-picker.ql-font .ql-picker-label[data-value="jamsil"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="jamsil"]::before {
+  font-family: "jamsil";
+  content: "jamsil" !important;
+}
+.ql-picker.ql-font .ql-picker-label[data-value="scdream"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="scdream"]::before {
+  font-family: "scdream";
+  content: "scdream" !important;
+}
+.ql-picker.ql-font .ql-picker-label[data-value="KBOGothic"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="KBOGothic"]::before {
+  font-family: "KBOGothic";
+  content: "KBOGothic" !important;
+}
+.ql-picker.ql-font .ql-picker-label[data-value="Gmarket"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="Gmarket"]::before {
+  font-family: "Gmarket";
+  content: "Gmarket" !important;
+}
+.ql-picker.ql-font .ql-picker-label[data-value="ESAMANRU"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="ESAMANRU"]::before {
+  font-family: "ESAMANRU";
+  content: "ESAMANRU" !important;
+}
+.ql-picker.ql-font .ql-picker-label[data-value="pretendard"]::before,
+.ql-picker.ql-font .ql-picker-item[data-value="pretendard"]::before {
+  font-family: "pretendard";
+  content: "pretendard" !important;
+}

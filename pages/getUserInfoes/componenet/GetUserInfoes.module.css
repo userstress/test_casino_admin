@@ -1,0 +1,44 @@
+.titleBoxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.leftBox {
+  display: flex;
+  flex-direction: row;
+}
+.titlewrapper {
+  background-color: #5386b5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+}
+
+.titleText {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.titleText > p {
+  color: #ffa500;
+  margin: 0;
+}
+
+.buttonBox {
+  width: 85px;
+  height: 25px;
+  color: white;
+  background-color: #2e4aac;
+  border: 1px solid white;
+  margin-left: 10px;
+}
+.buttonBox {
+  cursor: pointer;
+}

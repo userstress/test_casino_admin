@@ -1,0 +1,129 @@
+/* 전체 width 1663px */
+
+.boxContainer1 {
+  width: 16%;
+  /* 253px */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.boxContainer2 {
+  /* border:1px solid red; */
+  width: 32%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxContainer3 {
+  /* border:1px solid red; */
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxContainer4 {
+  /* border:1px solid red; */
+  width: 14%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableContainer {
+  width: 100%;
+  border-bottom: 3px double black;
+}
+
+.footerContainer {
+  padding: 10px;
+  width: 100%;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerFirstRowContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 46%;
+}
+
+.footerFirstRowInner {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSecondRowContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 46%;
+}
+.addWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5vw 0;
+  flex-direction: row;
+}
+.addIpBox {
+  width: 260px;
+
+  text-align: center;
+  border: solid 1px #808080;
+}
+.inputBox > input {
+  width: 129px;
+  height: 22px;
+  line-height: 22px;
+  border: none;
+  border-top: solid 1px #808080;
+}
+.divBox,
+.inputBox {
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: none;
+}
+.addIpBox > .inputBox > input:nth-child(2) {
+  border-left: solid 1px #808080;
+}
+
+.addIpBox > .divBox > div:nth-child(2) {
+  border-left: solid 1px #808080;
+}
+.buttonBox {
+  width: 70px;
+  height: 44px;
+}
+.buttonBox > button {
+  background-color: #2e4aac;
+  width: inherit;
+  height: inherit;
+  border: none;
+  margin-left: 2vw;
+  font-size: 10px;
+  color: white;
+  font-weight: 600;
+}
+.footerSecondRowButtons {
+  width: 21%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSecondRowInput {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,49 @@
+.TableWrapper {
+  width: 900px;
+}
+.TableBox {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 3fr 8fr 1fr;
+  border: solid 1px #bbbbbb;
+}
+.TableBox > span {
+  padding: 3px;
+}
+.levels {
+  height: 100%;
+}
+.inputs {
+  height: 100%;
+}
+
+.inputs,
+.levels {
+  border-right: solid 1px #bbbbbb;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.inputs > input {
+  width: 80%;
+  height: 80%;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.saveBtn {
+  width: 80%;
+  height: 80%;
+  border-radius: 5px;
+  border: none;
+  background-color: #3342c9;
+  color: white;
+}

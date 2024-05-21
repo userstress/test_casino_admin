@@ -1,0 +1,71 @@
+.sidebar {
+  flex: 1;
+  /* background-color: #b5b5b5; */
+
+  /* display: flex;
+  flex-direction: column; */
+
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+  font-size: 100%;
+  font-weight: 700;
+  overflow-y: hidden;
+}
+
+.sidebarMenu {
+  width: 100%;
+  height: 30px;
+  background-color: #181d4b;
+  margin-bottom: 0.26vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(184deg, #3269c0 35.17%, #181d4b 87.53%);
+}
+
+.isOpened {
+  background: linear-gradient(184deg, #df1313 35.17%, #7c1010 87.53%);
+}
+
+.sidebarMenu.isOpened div {
+  color: white;
+}
+
+.sidebarMenuLabel {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffa500;
+}
+
+.sidebarMenuIcon {
+  position: absolute;
+  width: 10%;
+  right: 0px;
+  color: white;
+}
+
+.titleWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  border: solid 2px black;
+  margin-bottom: 3px;
+}
+
+.titleWrapper > .companyName {
+  width: 202px;
+  height: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+}
+.companyName:nth-child(2) {
+  border-left: solid 2px black;
+}

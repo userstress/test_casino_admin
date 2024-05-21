@@ -1,0 +1,35 @@
+.boxContainer {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 7vw;
+}
+
+.idContainer {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pwContainer {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.submitBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 10px;
+}

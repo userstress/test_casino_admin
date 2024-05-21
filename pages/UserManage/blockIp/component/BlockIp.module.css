@@ -1,0 +1,186 @@
+/* 전체 width 1663px */
+
+.boxContainer1 {
+  width: 16%;
+  /* 253px */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.boxContainer2 {
+  /* border:1px solid red; */
+  width: 32%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxContainer3 {
+  /* border:1px solid red; */
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxContainer4 {
+  /* border:1px solid red; */
+  width: 14%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableContainer {
+  width: 100%;
+  border-bottom: 3px double black;
+}
+
+.footerContainer {
+  padding: 10px;
+  width: 100%;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerFirstRowContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 46%;
+}
+
+.footerFirstRowInner {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSecondRowContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 46%;
+}
+.addWrapper {
+  width: 100%;
+
+  padding: 0.5vw 0;
+  flex-direction: row;
+}
+.addIpBox {
+  width: 100%;
+  text-align: center;
+  border: solid 1px #808080;
+  display: grid;
+  grid-template-columns: 2.5fr 7.5fr;
+}
+.divBox {
+  border-right: solid 1px #808080;
+  background-color: #3a6287;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.divBox > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 100%;
+}
+.divBox > div:nth-child(1) {
+  border-bottom: solid 1px white;
+}
+.inputBox {
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  border-bottom: solid 1px white;
+  background-color: #e5e5e5;
+  padding-left: 10px;
+}
+.inputBox1 {
+  height: 44px;
+  border-bottom: solid 1px white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputBox > input {
+  width: 60px;
+  height: 22px;
+  line-height: 22px;
+  border: none;
+}
+.topbox2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto 0 auto 0;
+}
+.topbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: auto 0 auto 0;
+  width: 100%;
+}
+.topbox > input {
+  width: 10%;
+}
+.inputMemo {
+  width: 300px;
+}
+.bottombox {
+  font-size: 10px;
+  margin: auto 0;
+  font-weight: 500;
+}
+.buttonBoxwrapper {
+  position: relative;
+  width: 100%;
+  margin: 10px 0;
+  height: 60px;
+}
+
+.buttonBox {
+  background-color: #2e4aac;
+  width: 70px;
+  height: 30px;
+  position: absolute;
+  right: 0px;
+  border: none;
+  margin-left: 2vw;
+  font-size: 10px;
+  color: white;
+  font-weight: 600;
+}
+.buttonBox:hover {
+  cursor: pointer;
+}
+.footerSecondRowButtons {
+  width: 21%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSecondRowInput {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}

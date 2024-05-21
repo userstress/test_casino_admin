@@ -1,0 +1,13 @@
+.boxWrapper {
+  background-color: #5386b5;
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 3px; */
+  padding: 5px;
+}

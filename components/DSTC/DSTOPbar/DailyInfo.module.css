@@ -1,0 +1,35 @@
+.category {
+  background-color: #3a6287;
+  color: white;
+  white-space: nowrap;
+  width: 10%;
+}
+
+.wrappers {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.innerWrapper {
+  display: grid;
+  column-gap: 5px;
+  border: none !important;
+  color: white;
+  margin-right: 5px;
+}
+
+.innerWrapper > div {
+  border-radius: 5px;
+  border: 1px solid #bbbbbb !important;
+  height: 34px !important;
+  font-size: 15px !important;
+}
+
+.innerWrapper .item {
+  width: 170px;
+}
+
+.innerWrapper .logoutBtn {
+  width: 120px;
+}

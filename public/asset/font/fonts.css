@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "SCDream";
+  src: url("./SCDfont/SCDream1.otf") format("opentype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "SCDream";
+  src: url("./SCDfont/SCDream2.otf") format("opentype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "SCDream";
+  src: url("./SCDfont/SCDream3.otf") format("opentype");
+  font-weight: 500;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SCDream";
+  src: url("./SCDfont/SCDream4.otf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SCDream";
+  src: url("./SCDfont/SCDream7.otf") format("opentype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "nexon";
+  src: url("./nexon.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "hakgyo";
+  src: url("./HakgyoansimDoldamM.ttf") format("truetype");
+}
+@font-face {
+  font-family: "jamsil";
+  src: url("./TheJamsil3Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "scdream";
+  src: url("./SCDfont/SCDream4.otf") format("truetype");
+}
+@font-face {
+  font-family: "KBOGothic";
+  src: url("./KBODiaGothic_medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gmarket";
+  src: url("./GmarketSansTTFMedium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ESAMANRU";
+  src: url("./esamanru\ Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "pretendard";
+  src: url("./Pretendard-Regular.woff") format("truetype");
+}

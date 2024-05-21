@@ -1,0 +1,82 @@
+.customBarInner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  justify-content: center;
+}
+.customBarInner > div:first-child {
+  margin-left: 0;
+}
+.customBarInner > div {
+  margin-left: 20px;
+}
+.btnGroup1 {
+  width: 280px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnGroup2 {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.btnGroup3 {
+  width: 170px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.tableContainer {
+  width: 100%;
+  border-bottom: 3px double black;
+}
+
+.footerContainer {
+  padding: 10px;
+  width: 100%;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerFirstRowContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 46%;
+}
+
+.footerFirstRowInner {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSecondRowContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 46%;
+}
+
+.footerSecondRowInner {
+}
+
+.footerSecondRowButtons {
+  width: 21%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSecondRowInput {
+  width: 22.6%;
+  display: flex;
+  justify-content: flex-end;
+}

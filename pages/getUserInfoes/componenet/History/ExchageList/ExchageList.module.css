@@ -1,0 +1,14 @@
+.historyText {
+  min-height: 150px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.historyText {
+  display: flex;
+  flex-direction: column;
+}
+
+.totalValue {
+  display: flex;
+}

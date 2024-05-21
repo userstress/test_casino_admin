@@ -1,0 +1,48 @@
+.ArrowBtn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ArrowBtn > svg {
+  width: 100%;
+  height: 80%;
+}
+
+.addedWrapper {
+  width: 100%;
+  position: relative;
+  border: solid #808080 3px;
+  left: 0;
+
+  z-index: 1000;
+  margin: 40px 0 0 0;
+}
+.gridmaincustom > div:nth-child(2) > div:nth-child(3) {
+  display: none;
+}
+
+.customs {
+  color: black;
+  background-color: #808080;
+}
+
+.Events {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.folders {
+  width: 300px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30px;
+}

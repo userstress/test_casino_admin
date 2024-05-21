@@ -1,0 +1,153 @@
+/* 전체 width 1663px */
+
+.boxContainer1 {
+  /* 253px */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.boxContainer2 {
+  /* border:1px solid red; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxContainer3 {
+  /* border:1px solid red; */
+  /* width: 35%; */
+  height: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.boxContainer4 {
+  /* border:1px solid red; */
+  width: 14%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableContainer {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.footerContainer {
+  padding: 10px;
+  width: 100%;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerFirstRowContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 46%;
+}
+
+.footerFirstRowInner {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSecondRowContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 46%;
+}
+
+.footerSecondRowButtons {
+  width: 21%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSecondRowInput {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}
+.tablesection2,
+.centerTable {
+  border: solid 1px black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 10px 0;
+}
+.tablesection2 {
+  width: 801px;
+  font-size: 10px;
+}
+.tablesection {
+  width: 630px;
+}
+.ratioLevels {
+  width: 50px;
+  height: 100%;
+}
+.ratioLevels2 {
+  width: 150px;
+  height: 100%;
+  font-size: 13px;
+}
+.centerTable3 > thead > tr > th,
+.centerTable3 > tbody > tr > td,
+.centerTable2 > thead > tr > th,
+.centerTable2 > tbody > tr > td,
+.centerTable > thead > tr > th,
+.centerTable > tbody > tr > td {
+  border: solid 1px black;
+}
+.winRatio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+.winRatio > span {
+  width: fit-content;
+}
+.centerBtn {
+  width: 100%;
+}
+
+.BankName {
+  width: 80px;
+}
+
+.TableTtag > p {
+  margin: 0;
+  padding: 0;
+}
+
+.centerTable2 {
+  width: 630px;
+}
+.centerTable2 > thead > tr > th {
+  width: 10%;
+}
+.centerTable2 > tbody > tr > td > div {
+  display: flex;
+  text-align: center; /* 텍스트 정렬을 위해 */
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
+}
+
+.first {
+  width: 80px;
+  font-size: 15px;
+}
+
+.tablecell3 {
+  width: 143px;
+}

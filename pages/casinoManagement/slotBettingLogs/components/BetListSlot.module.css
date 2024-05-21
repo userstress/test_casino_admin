@@ -1,0 +1,56 @@
+.customBarInner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  .btnGroup1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btnGroup2 {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btnGroup3 {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .tableContainer {
+    width: 100%;
+    border-bottom: 3px double black;
+    overflow-x: hidden;
+  }
+  
+  .gridmaincustom > div:nth-child(2) > div:nth-child(3) {
+    display: none;
+  }
+  
+  .buttonBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30% !important;
+  }
+  
+  .buttonBox > div {
+    width: 100px;
+    margin-left: 10px;
+  }
+  .buttonBox:nth-child(3) {
+    justify-content: flex-end;
+  }
+  
+  .buttonBox2 {
+    float: center;
+    width: 100px;
+  }
+  

@@ -1,0 +1,178 @@
+/* 전체 width 1663px */
+
+.boxContainer1 {
+  width: 16%;
+  /* 253px */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.boxContainer2 {
+  /* border:1px solid red; */
+  width: 32%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxContainer3 {
+  /* border:1px solid red; */
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxContainer4 {
+  /* border:1px solid red; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableContainer {
+  width: 100%;
+  border-bottom: 3px double black;
+}
+
+.footerContainer {
+  padding: 10px;
+  width: 100%;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerFirstRowContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 46%;
+}
+
+.footerFirstRowInner {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSecondRowContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 46%;
+}
+
+.footerSecondRowButtons {
+  width: 21%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footerSecondRowInput {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}
+.accountPannel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 540px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #808080;
+  padding: 5px;
+}
+
+.inputbox {
+  width: 160px;
+  font-size: 12px;
+  height: 22px;
+}
+
+.inputbox::placeholder {
+  font-size: 12px;
+}
+
+.secondbox {
+  display: flex;
+  flex-direction: column;
+}
+.pannels {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 220px;
+}
+.pannels > div {
+  height: 80px;
+}
+.pannels2 {
+  height: 100%;
+  width: 100%;
+  padding-left: 45px;
+  padding-top: 18px;
+}
+
+.pannelbtn {
+  width: 90px;
+  height: 90px;
+  background-color: #5386b5;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pannelbtn:hover {
+  cursor: pointer;
+}
+
+.textBoxs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tryText {
+  width: 50px;
+  text-align: center;
+}
+.tryBtn {
+  width: 50px;
+}
+
+.Select {
+  width: 80px;
+  text-align: center;
+}
+
+.pwBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pwchinput {
+  width: 90%;
+}
+.pwchinput::placeholder {
+  font-size: 10px;
+}
+
+.saveBtnBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.saveBtn {
+  width: 60px;
+}

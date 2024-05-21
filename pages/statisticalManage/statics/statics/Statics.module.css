@@ -1,0 +1,211 @@
+/* 전체 width 1663px */
+
+.boxContainer1 {
+  width: 16%;
+  /* 253px */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.boxContainer2 {
+  /* border:1px solid red; */
+  width: 32%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxContainer3 {
+  /* border:1px solid red; */
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxContainer4 {
+  /* border:1px solid red; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableContainer {
+  width: 100%;
+  border-bottom: 3px double black;
+  font-weight: 600;
+}
+
+.footerContainer {
+  padding: 10px;
+  width: 100%;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerFirstRowContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 46%;
+}
+
+.footerFirstRowInner {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSecondRowContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 46%;
+}
+
+.addedCount {
+  width: 100%;
+  background-color: #5386b5;
+  color: white;
+  text-align: center;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5vw;
+}
+.titles {
+  width: 100%;
+  background-color: #5386b5;
+  color: white;
+  text-align: center;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.titleText {
+  margin: auto 0;
+  line-height: 100%;
+  line-height: 35px;
+}
+.gridBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.rasioBox {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+.percentage {
+  display: flex;
+  flex-direction: row;
+}
+.leftInput {
+  width: 210px;
+  margin: auto 0 auto 5px;
+  height: 80%;
+  line-height: 100%;
+}
+
+.rightInput {
+  width: 43px;
+  margin-left: 5px;
+  margin: auto 5px auto 0;
+  height: 80%;
+  line-height: 100%;
+}
+
+.rightInput {
+  text-align: right;
+}
+
+.gridHead {
+  border-bottom: solid 1px #808080;
+  width: 100%;
+  text-align: center;
+  border-right: solid 1px #808080;
+}
+.gridHead:nth-child(1) {
+  border-left: solid 1px #808080;
+}
+
+.gridBody {
+  height: 40px;
+  line-height: 30px;
+}
+.gridBody > div:nth-child(1) {
+  border-left: solid 1px #808080;
+  width: 100%;
+  margin: auto 0;
+  text-align: center;
+}
+.gridBody > input {
+  width: 100%;
+  border: none;
+}
+.gridBody > input,
+.gridBody > div {
+  border-right: solid 1px #808080;
+}
+
+.button {
+  background-color: white;
+  border: solid 1px #808080;
+  border-radius: 4px;
+  margin: auto 0;
+}
+.button:hover {
+  cursor: pointer;
+}
+.buttonBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 100%;
+}
+.rightSide {
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+.redColors {
+  color: red;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.rightSideNote {
+  width: 120px;
+  background-color: #808080;
+  margin: 0 10px;
+}
+
+.whiteColors {
+  color: white;
+  font-weight: bold;
+}
+
+.listof {
+  width: 320px;
+  height: 66px;
+  border: solid 1px #808080;
+  margin: 0.5vw auto;
+}
+.listof > p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

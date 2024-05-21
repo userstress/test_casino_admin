@@ -1,0 +1,146 @@
+.ArrowBtn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ArrowBtn > svg {
+  width: 100%;
+  height: 80%;
+}
+.ArrowBtn:hover {
+  cursor: pointer;
+}
+.addedWrapper {
+  width: 100%;
+  position: relative;
+  border: solid #808080 3px;
+  left: 0;
+  top: 40px;
+  z-index: 1000;
+}
+.gridmaincustom > div:nth-child(2) > div:nth-child(3) {
+  display: none;
+}
+
+.customs {
+  color: black;
+  background-color: #808080;
+}
+
+.Events {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.folders {
+  width: 300px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30px;
+}
+
+.titleof {
+  float: right;
+  background-color: black;
+  color: white;
+  margin: 4px 0;
+}
+
+.navListBox {
+  list-style: none;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+.navListBox > li {
+  margin: 0 10px;
+  width: fit-content;
+  text-align: center;
+}
+
+.navListBox > li:hover {
+  cursor: pointer;
+}
+
+.detailBoxes2,
+.detailBoxes {
+  background-color: #808080;
+  padding: 5px 0;
+}
+
+.paginateBox {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.paginateBox > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+.paginateBox > ul > li {
+  margin-left: 0.5vw;
+  width: 9%;
+  /* 원하는 너비 값을 설정하세요. */
+  line-height: 150%;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: black;
+  font-size: 1vw;
+}
+.paginateBox > ul > li.inActivate.isActiveLink {
+  text-decoration: none;
+  background-color: #909498;
+  /* 더 높은 specificity를 위해 추가한 규칙 */
+  margin-left: 0.5vw !important;
+  width: 9% !important;
+  line-height: 150% !important;
+  text-align: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  align-content: center !important;
+  justify-content: center !important;
+  color: black !important;
+  font-size: 1vw !important;
+}
+
+@media (max-width: 1024px) {
+  .paginateBox > ul > li {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .paginateBox > ul > li {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .paginateBox > ul > li {
+    font-size: 1.5vw;
+  }
+}

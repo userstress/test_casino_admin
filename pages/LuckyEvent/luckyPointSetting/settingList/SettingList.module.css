@@ -1,0 +1,23 @@
+.tableListWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.boxContainer .tableWrapper {
+  margin-top: 30px;
+}
+
+.boxContainer .tableWrapper table {
+  text-align: center;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+.boxContainer .tableWrapper table td,
+.boxContainer .tableWrapper table th {
+  border: 2px solid black;
+}
+
+.boxContainer .tableWrapper table th {
+  background-color: rgba(128, 128, 128, 0.72);
+}

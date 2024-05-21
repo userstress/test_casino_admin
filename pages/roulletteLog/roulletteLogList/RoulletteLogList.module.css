@@ -1,0 +1,84 @@
+/* 전체 width 1663px */
+
+.boxContainer1 {
+  width: 16%;
+  /* 253px */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.boxContainer2 {
+  /* border:1px solid red; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxContainer3 {
+  /* border:1px solid red; */
+  /* width: 35%; */
+  height: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.boxContainer4 {
+  /* border:1px solid red; */
+  width: 14%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableContainer {
+  width: 100%;
+  border-bottom: 3px double black;
+}
+
+.footerContainer {
+  padding: 10px;
+  width: 100%;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerFirstRowContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 46%;
+}
+
+.footerFirstRowInner {
+  text-align: end;
+}
+
+.footerFirstRowInner span {
+  display: block;
+}
+
+.footerSecondRowContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 46%;
+
+}
+
+.footerSecondRowButtons {
+  width: 21%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footerSecondRowInput {
+  width: 22.6%;
+  display: flex;
+  justify-content: space-between;
+}

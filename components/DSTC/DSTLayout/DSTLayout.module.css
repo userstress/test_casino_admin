@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+
+  height: calc(100vh - 80px);
+
+  overflow-y: auto;
+}
+
+.contents {
+  flex: 7.8;
+  background-color: wheat;
+
+  overflow-y: auto;
+}
+
+.topLabel {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 0 10px;
+}
+.topLabel > span {
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: solid 2px black;
+  border-bottom: 2px solid black;
+}
+
+.topLabel:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,307 @@
+.statics {
+  min-width: 90%;
+  width: fit-content;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.title2 {
+  width: 99%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+.tableHeads {
+  border: 1px solid black;
+  margin-top: 5px;
+}
+.tablebody {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+.tableHeads,
+.tablebody {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.tablebody > span,
+.tableHeads > span {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right: solid 1px;
+}
+
+.inputBox,
+.inputBox2,
+.inputBox3 {
+  text-align: right;
+}
+
+.inputBox {
+  width: 70%;
+}
+.inputBox2 {
+  width: 60%;
+}
+.inputBox3 {
+  width: 20%;
+  margin-left: 5px;
+}
+
+.inputBox::-webkit-inner-spin-button,
+.inputBox::-webkit-outer-spin-button,
+.inputBox2::-webkit-inner-spin-button,
+.inputBox2::-webkit-outer-spin-button,
+.inputBox3::-webkit-inner-spin-button,
+.inputBox3::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none; /* 스피너 버튼을 숨깁니다 */
+}
+
+.apbang {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 0 auto;
+  border: solid 1px black;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.apbang > div {
+  width: 50%;
+  text-align: center;
+}
+.apinput {
+  width: 100%;
+  text-align: center;
+}
+
+.first {
+  font-weight: 500;
+}
+
+.contents {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+.apbangDiv {
+  position: relative;
+}
+.apbangDiv > span {
+  margin-right: 10px;
+}
+.apbangLog2,
+.apbangLog {
+  border: none;
+  border-radius: 4px;
+  width: 120px;
+}
+.buttonsSubmit1:hover,
+.apbangLog2:hover,
+.apbangLog:hover {
+  cursor: pointer;
+}
+
+.apbangLog2 {
+  background-color: #008000;
+  color: white !important;
+  margin-right: 20px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3px;
+}
+.apbangLog2 > button {
+  color: white !important;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.makeAccount {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+  justify-content: flex-end;
+}
+
+.accountAdd {
+  display: flex;
+  flex-direction: row;
+  border: solid 1px #bbbbbb;
+  padding: 10px;
+  font-size: 18px;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.modalTable {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  border: solid 1px #bbbbbb;
+}
+.detailTitle {
+  padding: 5px;
+  border-right: solid 1px #bbbbbb;
+  text-align: center;
+}
+
+.detailContents {
+  padding: 5px 5px 5px 15px;
+  text-align: left;
+}
+.detailContents > input {
+  width: 100%;
+}
+.detailContents > select {
+  width: 50%;
+}
+
+.memofor {
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+  resize: none;
+  border: solid 1px #bbbbbb;
+}
+
+.submits {
+  background-color: #3342c9;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+.buttonsSubmit1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background-color: #008000;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  height: 30px;
+  text-align: center;
+}
+.sectionList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionList {
+  border: solid 1px #808080;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+  height: 30px;
+}
+
+.gridBox > section:nth-child(1) {
+  margin-bottom: 10px;
+}
+.gridBox > section {
+  margin-top: 1px;
+}
+.sectionList > select {
+  text-align: center;
+  text-align-last: center; /* 선택된 텍스트를 중앙 정렬 */
+  -moz-text-align-last: center; /* Firefox를 위한 설정 */
+  display: block;
+  margin: 0 auto;
+  border-right: solid 1px #808080;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sectionList > input {
+  border-right: solid 1px #808080;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.delBtnfor {
+  width: 70%;
+  border: none;
+  background-color: #5386b5;
+  color: white;
+  height: 70%;
+}
+.warnSpan {
+  font-size: 10px;
+  color: #808080;
+  opacity: 0.7;
+  margin-right: 20px;
+}
+
+.saveBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 1em 40px;
+}
+
+.buttonsBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}

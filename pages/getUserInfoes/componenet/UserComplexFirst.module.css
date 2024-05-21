@@ -1,0 +1,188 @@
+.GridWrappers {
+  display: grid;
+  width: 100%;
+}
+
+.gridSectors {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: solid 1px black;
+}
+.rightBoxComplex,
+.gridRightSideSector,
+.gridLeftSideSector {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.gridComplexes {
+  display: flex;
+  flex-direction: row;
+}
+.complexChild {
+  display: flex;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.gridSectorWIDTH {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.referrerList {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  height: 100%;
+  margin: 0;
+  padding: 2px;
+  font-size: 10px;
+  list-style: none;
+}
+.referrerLis > li {
+  list-style: none;
+  padding: 0;
+}
+.gridLeftSideSector {
+  border-left: solid 1px black;
+}
+.nameSide {
+  text-align: center;
+  background-color: #3a6287;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.TextSide {
+  width: 100%;
+  color: black;
+  border-top: solid 1px black;
+}
+.TextSide > input {
+  width: 100%;
+}
+
+.phoneSetting {
+  display: flex;
+  flex-direction: column;
+}
+.phoneSettingInput {
+  width: 110px;
+}
+.phoneSettingInner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  font-size: 10px;
+}
+.phoneCheckboxes {
+  display: flex;
+  flex-direction: row;
+}
+.eventDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.eventOption {
+  width: 49%;
+  color: black;
+  border: solid 1px black;
+}
+.BoardBox {
+  min-height: 74px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.BoardNode {
+  font-size: 11px;
+  padding-left: 5px;
+}
+.spaceAround {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  align-items: center;
+}
+
+.vAccountBox {
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+}
+
+.vaccount {
+  width: 65px;
+  height: 90%;
+  outline: none;
+}
+.inputLabelss {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.vaccountInput1 {
+  width: 50px;
+}
+.vaccountInput1 {
+  width: 60px;
+}
+
+.teleboxBttom {
+  width: 120px;
+}
+
+.telegramBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 70px;
+  padding-left: 5px;
+}
+
+.complexBox {
+  display: flex;
+  flex-direction: column;
+}
+.fixBtnxs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-left: solid 1px black;
+}
+
+.fixBtn {
+  margin-left: 10px;
+  width: 100px;
+}
+
+.eventOption2 {
+  width: 30%;
+}
+.selectTotalBox {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.selectSet {
+  display: flex;
+  align-items: center;
+  border-top: solid 1px black;
+  height: 26px;
+  padding: 2px;
+}
+.selectSet > select {
+  margin: 0px 1px;
+  width: 6vw;
+  height: 16px;
+  font-size: 0.6vw;
+}

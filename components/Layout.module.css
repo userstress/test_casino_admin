@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+
+  height: calc(100vh - 80px);
+  margin-top: 3px;
+  overflow-y: auto;
+}
+
+.topLabel {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 0 10px;
+}
+
+.contents {
+  background-color: white;
+  overflow-y: auto;
+  width: 100%;
+  overflow-x: auto;
+}
+.textbox {
+  width: 100%;
+  height: 20px;
+}
+
+.topLabel > span {
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-top: solid 2px black;
+  border-bottom: 2px solid black;
+}

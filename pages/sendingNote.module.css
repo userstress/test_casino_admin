@@ -1,0 +1,32 @@
+.noteTextWrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.titleBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.titleSpan {
+  width: 40px;
+}
+.titleInputLine {
+  width: 100%;
+  height: 100%;
+}
+
+.noteTextWrapper {
+  padding: 10px;
+}
+
+.noteTitle {
+  color: white;
+  background-color: #5386b5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,5 @@
+.historyText {
+  min-height: 150px;
+  display: flex;
+  align-items: flex-end;
+}

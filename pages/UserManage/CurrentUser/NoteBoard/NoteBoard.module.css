@@ -1,0 +1,126 @@
+.BoardWrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.boardFirst {
+  width: 100%;
+  height: 100%;
+}
+.boardFirst > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px black;
+  border-right: solid 1px black;
+  border-left: solid 1px black;
+  background-color: #3a6287;
+  color: white;
+}
+
+.boardFirst > div:last-child {
+  border-bottom: solid 1px black;
+}
+.boardSecond {
+  width: 100%;
+}
+.boardSecond > div {
+  border-top: solid 1px black;
+  border-right: solid 1px black;
+  border-left: solid 1px black;
+}
+/* .boardThird > div:last-child {
+  border-bottom: solid 1px black;
+} */
+.Second4 {
+  border-bottom: solid 1px black;
+  height: 30vw;
+}
+.buttonListList {
+  list-style: none;
+}
+.Second1 {
+  width: 100%;
+  height: 50px;
+}
+.Second2 {
+  width: 100%;
+  height: 37px;
+}
+.noteTitles {
+  padding: 5px 2px;
+}
+.Second3 {
+  height: 40px;
+}
+.noteTitles_Second3 {
+  width: 100%;
+  padding: 5px 2px;
+  display: flex;
+  flex-direction: row;
+}
+.noteTitles_Second3 > input {
+  width: 30%;
+}
+.noteTitles > input {
+  width: 90%;
+}
+.buttonListUl {
+  margin: 0;
+  padding: 0;
+}
+.buttonListUl,
+.buttonList {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.boardThird {
+  width: 100%;
+  height: 100%;
+  border-top: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+}
+.mecros {
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+}
+.Ulists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.formRadio {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.editors {
+  position: relative;
+  height: 90%;
+}
+
+.submitBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.submitBox > button {
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-right: 5px;
+  margin: 20px 5px;
+  background-color: #3b4281;
+}

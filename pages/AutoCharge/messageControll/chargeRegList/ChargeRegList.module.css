@@ -1,0 +1,122 @@
+.customBarInner {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.btnGroup1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnGroup2 {
+  width: 5%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.btnGroup3 {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tableContainer {
+  width: 100%;
+  border-bottom: 3px double black;
+  overflow-x: hidden;
+}
+.gridmaincustom > div:nth-child(2) > div:nth-child(3) {
+  display: none;
+}
+.pannelWrapper {
+  width: 800px;
+  border: solid 1px black;
+}
+.checkboxPannel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.checkboxBoxTitle {
+  width: 100%;
+  height: 40px;
+  background-color: #696969;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.toggleBtns {
+  width: 100px;
+  margin: 0 10px;
+}
+
+.sendLvSetting {
+  width: 70px;
+  margin: 0px 0px 20px 0;
+}
+
+.btnheaders {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+.btnheaders:nth-child(2) {
+  justify-content: space-between;
+  width: 300px;
+}
+.btnheaders > div {
+  width: 150px;
+}
+
+.buttonG02 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.buttonsto {
+  height: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+}
+.buttonsto:hover {
+  background-color: black;
+  color: white;
+}
+.buttonsto {
+  width: 120px;
+}
+
+.buttonstoRed {
+  width: 120px;
+  background-color: red;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+.checkboxInv {
+  display: flex;
+  flex-direction: row;
+}
